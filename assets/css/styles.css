@@ -642,6 +642,10 @@ img {
     margin-bottom: 4rem;
   }
 
+  .home__title{
+    font-size: 6.6rem;
+  }
+
   .nav {
     height: calc(var(--header-height) + 2rem);
     column-gap: 2rem;

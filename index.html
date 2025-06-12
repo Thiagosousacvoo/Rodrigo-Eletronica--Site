@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+   <html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Rodrigo Eletrônica</title>
+   </head>
+   <body>
+
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <img src="assets/img/logo.svg" alt="logo">   
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link">Home</a>
+                  </li>
+                  <li>
+                     <a href="#servicos" class="nav__link">Serviços</a>
+                  </li>
+                  <li>
+                     <a href="#produtos" class="nav__link">Produtos</a>
+                  </li>
+                  <li>
+                     <a href="#localidade" class="nav__link">Localidade</a>
+                  </li>
+                  <li>
+                     <a href="#contato" class="nav__link">Contato</a>
+                  </li>
+               </ul>
+
+               <div class="nav__close" id="nav-close">
+                  <i class="bi bi-x-lg"></i>
+               </div>
+            </div>
+
+            <div class="nav__buttons">
+               <i class="ri-moon-fill nav__theme" id="theme-button"></i>
+
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="bi bi-list"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+
+      <main class="main">
+         <section class="home" id="home">
+            <img src="assets/img/frente.jpg" alt="frente da loja" class="home__bg">
+            <div class="home__blur"></div>
+
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">Rodrigo <br> Eletrônica <br></h1>
+                     <p class="home__description">
+                        Eletrônica especializada em consertos em geral, com mais de 30 anos de experiência no mercado. Oferecemos serviços de alta qualidade e confiança para todos os nossos clientes.
+                     </p>
+                     <a href="#servicos" class="button button__opa-30">
+                        Conheça nossos serviços 
+                        <i class="bi bi-arrow-down"></i>
+                     </a>
+               </div>
+
+               <div class="home__swiper swiper">
+                  <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                            <img src="assets/img/frente.png" alt="imagem balcao" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/lateral.png" alt="lateral cabos e carregadores" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/direita.png" alt="direita com controles de tv" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="assets/img/dentro.png" alt="dentro frente" class="home__img">
+                        </article>
+                  </div>
+
+                  <div class="swiper-button-prev">
+                     <i class="bi bi-arrow-left-short"></i>
+                  </div>
+                  <div class="swiper-button-next">
+                     <i class="bi bi-arrow-right-short"></i>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="servicos" id="servicos">
+            <h2 class="section__title">Serviços oferecidos</h2>
+
+            <div class="servicos__container container grid">
+               <article class="servicos__article">
+                  <img src="assets/img/tv.png" alt="imagem conserto de tv" class="servicos__img">
+                  <div class="servicos__info">
+                     <h2 class="servicos__title">Consertos de TV's</h2>
+                  </div>   
+               </article>               
+
+               <article class="servicos__article">
+                  <img src="assets/img/vg.png" alt="imagem conserto de tv" class="servicos__img">
+                  <div class="servicos__info">
+                     <h2 class="servicos__title">Consertos Videogames</h2>
+                  </div>   
+               </article>
+
+               <article class="servicos__article">
+                  <img src="assets/img/mo.png" alt="imagem conserto de tv" class="servicos__img">
+                  <div class="servicos__info">
+                     <h2 class="servicos__title">Consertos de micro ondas</h2>
+                  </div>   
+               </article>
+
+               <article class="servicos__article">
+                  <img src="assets/img/monitor.png" alt="imagem conserto de tv" class="servicos__img">
+                  <div class="servicos__info">
+                     <h2 class="servicos__title">Consertos de monitores</h2>
+                  </div>   
+               </article>
+
+               <article class="servicos__article">
+                  <img src="assets/img/som.png" alt="imagem conserto de tv" class="servicos__img">
+                  <div class="servicos__info">
+                     <h2 class="servicos__title">Consertos de caixas de som</h2>
+                  </div>   
+               </article>
+     
+               <article class="servicos__article">
+                  <img src="assets/img/solda.png" alt="imagem conserto de tv" class="servicos__img">
+                  <div class="servicos__info">
+                     <h2 class="servicos__title">E muito mais</h2>
+                  </div>   
+               </article>
+            </div>
+         </section>
+
+         <section class="produtos" id="produtos">
+            <h2 class="section__title">Produtos</h2>
+
+            <div class="produtos__container container grid">
+               <article class="produtos__article">
+                  <img src="assets/img/car.png" alt="carregador" class="produtos__img">
+                  <div class="produtos__shadow"></div>
+
+                  <div class="produtos__info">
+                     <h3 class="produtos__subtitle">Carregadores</h3>
+                     <h2 class="produtos__title">Apple, Samsung, Motorola, Kaide...</h2>
+                  </div>        
+               </article>
+
+               <article class="produtos__article">
+                  <img src="assets/img/fone.png" alt="imagem fone" class="produtos__img">
+                  <div class="produtos__shadow"></div>
+
+                  <div class="produtos__info">
+                     <h3 class="produtos__subtitle">Fone de ouvido</h3>
+                     <h2 class="produtos__title">Baseus, Sony, Samsung, JBL...</h2>
+                  </div>        
+               </article>
+
+               <article class="produtos__article">
+                  <img src="assets/img/suporte.png" alt="suporte" class="produtos__img">
+                  <div class="produtos__shadow"></div>
+
+                  <div class="produtos__info">
+                     <h3 class="produtos__subtitle">Acessórios para celulares</h3>
+                     <h2 class="produtos__title">Adaptadores, Suportes, Power Bank...</h2>
+                  </div>        
+               </article>
+
+               <article class="produtos__article">
+                  <img src="assets/img/hdmi.png" alt="imagem hdmi" class="produtos__img">
+                  <div class="produtos__shadow"></div>
+
+                  <div class="produtos__info">
+                     <h3 class="produtos__subtitle">Cabos</h3>
+                     <h2 class="produtos__title">HDMI, Type-C, USB, Rede-Rj45, Conversor...</h2>
+                  </div>        
+               </article>
+
+               <article class="produtos__article">
+                  <img src="assets/img/peri.png" alt="imagem perifericos" class="produtos__img">
+                  <div class="produtos__shadow"></div>
+
+                  <div class="produtos__info">
+                     <h3 class="produtos__subtitle">Micro informática</h3>
+                     <h2 class="produtos__title">Teclado, Mouse, Pendrive, Caixa de som</som></h2>
+                  </div>        
+               </article>
+               <article class="produtos__article">
+                  <img src="assets/img/camera.png" alt="imagem cameras" class="produtos__img">
+                  <div class="produtos__shadow"></div>
+
+                  <div class="produtos__info">
+                     <h3 class="produtos__subtitle">Equipamento de vigilância</h3>
+                     <h2 class="produtos__title">Camesras 360° diversos modelos<som class=""></som></h2>
+                  </div>        
+               </article>
+               <article class="produtos__article">
+                  <img src="assets/img/vendatv.png" alt="imagem tv" class="produtos__img">
+                  <div class="produtos__shadow"></div>
+
+                  <div class="produtos__info">
+                     <h3 class="produtos__subtitle">Televisões</h3>
+                     <h2 class="produtos__title">Samsung, AOC, Philco... <som class=""></som></h2>
+                  </div>        
+               </article>
+            </div>
+         </section>
+
+         <section class="localidade" id="localidade">
+            <h2 class="section__title">Localização da Rodrigo Eletrônica</h2>
+            <h3 class="section__subtitle">R. Bernardino Monteiro, 177 - Eco, Santa Teresa - ES, 29650-000</h3>
+
+            <div class="localidade__container container grid">
+               <article class="localidade__article">    
+                  <iframe src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1749583393875!5m2!1spt-BR!2sbr!6m8!1m7!1s-su4smOZnnzYjkh6Fgr6xw!2m2!1d-19.93462939904449!2d-40.59509347625506!3f44.755662350259975!4f2.6544766136032223!5f0.7820865974627469" ></iframe>      
+               </article>
+            </div>
+         </section>
+
+         <section class="contato" id="contato">
+            <div class="contato__container container grid">
+               <div class="contato__info">
+                  <h2 class="section__title">Entre em contato</h2>
+                  <p class="contato__descricao">
+                  Faça já seu orçamento, estamos disponíveis para <br>
+                  atender você!
+                  </p>
+                  <a 
+                  href="https://api.whatsapp.com/send?phone=5527999701526&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento!"
+                  target="_blank"
+                  class="contato__button button"
+                  style="display: inline-flex; align-items: center; gap: 8px;"
+                  >
+                  WhatsApp 
+                  <i class="bi bi-whatsapp"></i>
+                  </a>
+               </div>
+              
+            </div>
+         </section>
+      </main>
+
+      <footer class="footer">
+         <div class="footer__container container grid">
+            
+            <div class="footer__conteudo grid">
+               <div>
+                  <h3 class="footer__title">Rede social</h3> 
+                     <div class="footer__social">
+                        <a href="https://www.instagram.com/rodrigo_eletronic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="footer__social__link">
+                           <i class="bi bi-instagram"></i>
+                        </a>
+                     </div>
+               </div>
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; Rodrigo Eletrônica. Todos os direitos reservados. <br>
+         </span>
+      </footer>
+
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="bi bi-arrow-up-short"></i> 
+      </a>
+
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
